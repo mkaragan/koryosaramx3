@@ -1,0 +1,361 @@
+@media (max-width: 768px) {
+    /* recipe pages */
+.kuski-description{
+    margin-top: 10%;
+    width: 100%;
+    margin-left: 1em;
+}
+.kuksi-photo{
+    width: 100%;
+    position: absolute;
+    margin-right: 80%;
+}
+.sec-1 {
+    top: 10%;
+    left: 15%
+}
+
+.sec-2 {
+    top: 20%;
+    right: 30%;
+}
+
+.sec-3 {
+    top: 50%;
+    left: 65%;
+
+}
+
+.sec-4 {
+    bottom: 30%;
+    right: 15%;
+}
+
+.sec-5 {
+    bottom: 18%;
+    left: 48%;
+}
+
+.sec-6 {
+    bottom: 10%;
+    left: 15%;
+}
+
+.sec-7 {
+    top: 35%;
+    left: 60%;
+}
+.finish{
+   bottom: 3%;
+   font-size: 1em;
+}
+
+.main-nav {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #ffffff;
+    color:  rgb(0, 0, 0);
+    width: 100%;
+    height: 100vh;
+    opacity: 100%;
+    text-align: center;
+    padding-top: 60%;
+    font-size: 1.5em;
+    z-index: 100;
+}
+
+.main-nav.show {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-nav li {
+    margin: 10px 0;
+}
+
+.burger-menu {
+    display: block;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+.burger-icon {
+    height: 1.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.burger-bar {
+    width: 10%;
+    height: 10%;
+    background-color: rgb(0, 0, 0);
+}
+.main-box {
+    margin-top: 10%;
+    margin-left: 2em;
+}
+header.waiche {
+    width: 100%;
+    margin-left: 0em;
+
+}
+
+h1.title-recipe {
+    font-size: 3em;
+    margin: 0;
+    padding-top:0;
+
+}
+
+h3 {
+    font-size: 0.9em;
+    margin-left: 0;
+
+}
+
+.ingredients {
+    font-size: 0.7em;
+    padding-left: 0;
+    list-style-type: none;
+
+}
+
+.recipe-photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: block;
+    position: relative;
+
+}
+
+.box-prep {
+    width: 100%;
+    margin: 0;
+    padding: 2em;
+}
+
+.back {
+bottom: 3%;
+}
+
+/* index page */
+.burger-bar {
+    width: 10%;
+    height: 10%;
+    background-color: rgb(0, 0, 0);
+}
+.burger-bar1 {
+    width: 10%;
+    height: 10%;
+    background-color: rgb(250, 243, 170);
+}
+.index-nav {
+    display: none;
+    top: 0;
+    right: 0;
+    background-color: #303030;
+    color:  rgb(250, 243, 170);
+    width: 100%;
+    height: 100vh;
+    opacity: 100%;
+    text-align: center;
+    padding-top: 60%;
+    font-size: 1.5em;
+}
+
+.index-nav.show {
+    display: flex;
+    flex-direction: column;
+}
+
+.index-nav li {
+    margin: 10px 0;
+}
+
+.header-img {
+    background-image: url(../images/Untitled-1.png);
+    height: 100vh;
+    display: block;
+    background-size:contain;
+    background-position: center;
+
+}
+    
+    .change-text {
+        font-size: 2em;
+        
+    }
+/* SEPERATE 1 */
+
+.background {
+    background-color: rgb(49, 48, 44);
+}
+
+.container1 {
+    height: 60vh;
+}
+
+
+h1.hero-head {
+    font-size: 3em;
+    color:  rgb(250, 243, 170);
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 0;
+    text-align: right;
+    padding-right: 0.7em;
+
+
+}
+
+.origin-img {
+    width: 45%;
+    margin-left: 1em;
+    margin-top: 10%;
+}
+
+.origin-img2 {
+    width: 45%;
+    position: relative;
+    margin-top: 0;
+    margin-left:0;
+}
+
+.origin {
+    width: 100%;
+    padding: 2em;
+    margin-top: 20%;
+
+}
+
+/* SEPERATE 2*/
+
+h1.hero-head2 {
+    font-size: 3em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.underline {
+    border: 0.7px solid rgb(250, 243, 170);
+    margin-left: 5%;
+    width: 90%;
+}
+
+
+.container2 {
+    width: 100%;
+    height:100%;
+
+}
+
+.center2 {
+    margin-top: 10%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.deport-img {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 10%;
+   
+}
+
+.deport-img2 {
+    position: absolute;
+    width: 85%;
+    padding: 0;
+    margin-left: 1.5em;
+    margin-top: 10%;
+}
+
+.deportation {
+    width: 100%;
+    margin-left: 0;
+    padding: 2em;
+    margin-top: 75%;
+    position: relative;
+  
+}
+
+.document {
+    margin-left: 0%;
+    width: 100%;
+    padding: 2em;
+    margin-top: 5%;
+    
+}
+
+/* SEPERATE 3*/
+
+h1.hero-head3 {
+    font-size: 3em;
+    margin-top: 1em;
+    margin-bottom: 0;
+    padding-right: 0.7em;
+    padding-top: 0em;
+    ;
+
+}
+
+.container3 {
+    height: 80vh;
+    display: block;
+}
+
+
+.set-img {
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 10%;
+    position: absolute;
+}
+
+.set {
+    position: absolute;
+    padding: 2em;
+    width: 100%;
+    margin-top: 100%;
+    
+
+
+}
+
+/* SEPERATE */
+
+.disc {
+
+    width: 82%;
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 80%;
+
+}
+
+.button {
+    width: 30%;
+    font-size: 1.5em;
+    margin: 2em auto auto;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    outline: 1px solid black;
+
+}
+
+}
+
+.sources {
+    font-size: 0.4em;
+    width: 80%;
+    margin-top: 15em;
+    margin-left: 2em;
+}
+
+.artist-statement{
+    width: 80%;
+}

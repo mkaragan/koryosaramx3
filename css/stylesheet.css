@@ -1,0 +1,675 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0em;
+}
+
+
+
+/* home page */
+/* index nav */
+.index-nav {
+    font-family: "Noto Serif Display", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    position: absolute;
+    right: 0.8em;
+    font-size: 0.9em;
+    margin-top: 1em;
+
+}
+
+.index-nav a:link {
+    text-decoration: none;
+    color: rgb(250, 243, 170);
+    ;
+    padding: 1em;
+    font-size: 1em;
+    transition: all 0.3s;
+}
+
+.index-nav a:visited {
+    color: rgb(250, 243, 170);
+
+}
+
+.index-nav a:hover {
+    transition: all 0.3s;
+    font-weight: bold;
+}
+
+.burger-menu {
+    display: none;
+}
+
+.header-img {
+
+    background-image: url(../images/coverimg.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: block;
+    background-size: cover;
+    background-position: left;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+/* code for changing font https://codepen.io/tfunk2/pen/abmNxrY */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gruppo&family=Italiana&family=Jacquarda+Bastarda+9&family=Mea+Culpa&family=Monsieur+La+Doulaise&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Pinyon+Script&family=Prosto+One&family=Six+Caps&family=Whisper&display=swap');
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-change {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.change-text {
+    font-size: 4.5em;
+    color: rgb(250, 243, 170);
+    ;
+    animation-name: fontChange;
+    animation-duration: 1.3s;
+    animation-iteration-count: infinite;
+    transform: all 0.5s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes fontChange {
+    0% {
+        font-family: "Pinyon Script", cursive;
+        font-weight: 400;
+        font-style: normal;
+
+    }
+
+    10% {
+        font-family: "Gruppo", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    20% {
+        font-family: "Italiana";
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    30% {
+        font-family: "Monsieur La Doulaise", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    40% {
+        font-family: "Noto Serif Display", serif;
+        font-optical-sizing: auto;
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+    50% {
+        font-family: "Gruppo", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+    }
+
+    60% {
+        font-family: "Pinyon Script", cursive;
+        font-weight: 400;
+        font-style: normal;
+
+    }
+
+    70% {
+        font-family: "Italiana";
+        font-weight: 400;
+        font-style: normal;
+
+    }
+
+    80% {
+        font-family: "Gruppo", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    90% {
+        font-family: "Italiana";
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    100% {
+        font-family: "Pinyon Script", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
+}
+
+/* SEPERATE 1 */
+
+.background {
+    background-color: rgb(49, 48, 44);
+}
+
+.underline {
+    border: 0.7px solid rgb(250, 243, 170);
+    margin-left: 5%;
+    width: 90%;
+}
+
+.container1 {
+    height: 100vh;
+    width: 100%;
+}
+
+.centered {
+    margin-top: 2em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 29%;
+}
+
+h1.hero-head {
+    font-family: "Noto Serif Display", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 6em;
+    color: rgb(250, 243, 170);
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 0;
+    text-align: right;
+    padding-right: 0.7em;
+
+
+}
+
+.origin-img {
+
+    width: 35%;
+    margin-left: 7em;
+    margin-top: 2em;
+
+}
+
+.origin-img2 {
+    width: 35%;
+    position: absolute;
+    margin-top: 44%;
+    margin-left: 10em;
+}
+
+.origin {
+    color: rgb(250, 243, 170);
+    width: 30%;
+    font-size: 0.8em;
+}
+
+/* SEPERATE 2*/
+
+h1.hero-head2 {
+    font-family: "Noto Serif Display", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 6em;
+    color: rgb(250, 243, 170);
+    width: 100%;
+    margin-top: 4em;
+    margin-bottom: 0;
+    padding-left: 0.7em;
+
+}
+
+.underline {
+    border: 0.7px solid rgb(250, 243, 170);
+    margin-left: 5%;
+    width: 90%;
+}
+
+
+.container2 {
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.center2 {
+    position: absolute;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.deport-img {
+    width: 30%;
+    margin-left: 6em;
+    margin-top: 5em;
+}
+
+.deport-img2 {
+    position: absolute;
+    width: 35%;
+    margin-left: 12%;
+    margin-top: 30%;
+}
+
+.deportation {
+    color: rgb(250, 243, 170);
+    width: 38%;
+    font-size: 0.8em;
+    margin-left: 12%;
+    margin-top: 8%;
+}
+
+.document {
+    color: rgb(250, 243, 170);
+    width: 30%;
+    font-size: 0.7em;
+    margin-top: 3em;
+    margin-left: 56.7%;
+}
+
+/* SEPERATE 3*/
+
+h1.hero-head3 {
+    font-family: "Noto Serif Display", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 6em;
+    color: rgb(250, 243, 170);
+    width: 100%;
+    text-align: right;
+    margin-top: 1em;
+    margin-bottom: 0;
+    padding-right: 0.7em;
+    padding-top: 2em;
+    ;
+
+}
+
+.container3 {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.set-img {
+    width: 30%;
+    margin-left: 6em;
+}
+
+.set {
+    color: rgb(250, 243, 170);
+    padding: 8em;
+    width: 50%;
+    font-size: 0.8em;
+
+}
+
+/* SEPERATE */
+.container4 {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+.disc {
+    color: rgb(0, 0, 0);
+    width: 50%;
+    font-size: 0.8em;
+    text-align: center;
+    margin: 20% auto 5%;
+
+
+}
+
+.button {
+    font-family: "Noto Serif Display", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+
+
+}
+
+.button a:link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.button a:visited {
+    color: black;
+}
+
+.button a:hover {
+    font-size: 1.2em;
+}
+
+/* Recipe page */
+
+h1.title-kuksi {
+    font-family: "Noto Serif Display", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 3em;
+    margin: 0 0.6em;
+    padding-top: 1.3rem;
+
+
+
+}
+
+.kuski-description {
+    width: 30%;
+    margin-left: 1.5em;
+
+}
+
+.des {
+    font-size: 0.7em;
+    margin: 0 3em;
+
+}
+
+
+
+.kuksi-photo img {
+    width: 22em;
+    border-radius: 50%;
+    display: block;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 1;
+}
+
+.kuksi-photo img.fade-in {
+    opacity: 1;
+}
+
+
+
+
+
+.hero-img {
+    width: 100%;
+    min-height: 67vh;
+    height: auto;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.sec-1,
+.sec-2,
+.sec-3,
+.sec-4,
+.sec-5,
+.sec-6,
+.sec-7 {
+    position: absolute;
+}
+
+.sec-1 {
+    top: 0%;
+    left: 48%
+}
+
+.sec-2 {
+    top: 20%;
+    right: 28%;
+}
+
+.sec-3 {
+    top: 55%;
+    right: 30%;
+
+}
+
+.sec-4 {
+    bottom: 10%;
+    right: 30%;
+}
+
+.sec-5 {
+    bottom: 0%;
+    left: 48%;
+}
+
+.sec-6 {
+    bottom: 20%;
+    left: 30%;
+}
+
+.sec-7 {
+    top: 35%;
+    left: 25%;
+}
+
+/* circle links */
+.hero-img a:link {
+    color: black;
+    text-decoration: none;
+    font-family: "Noto Serif Display", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    transition: all .3s;
+    font-size: 1.1em;
+
+}
+
+.hero-img a:visited {
+    color: black;
+}
+
+.hero-img a:hover {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.finish {
+    font-family: "Noto Serif Display", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    position: absolute;
+    color: black;
+    bottom: 15%;
+    right: 10%;
+    font-size: 1em;
+    transition: all 0.3s;
+}
+
+.finish a:link {
+    transition: all 0.3s;
+    text-decoration: none;
+    color: black;
+}
+
+.finish a:visited {
+    color: rgb(0, 0, 0);
+}
+
+.finish a:hover {
+    font-size: 1.1em;
+}
+
+/* main navigation */
+.main-nav {
+    font-family: "Noto Serif Display", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    position: absolute;
+    right: 0.8em;
+    font-size: 0.9em;
+    margin-top: 1em;
+
+}
+
+.main-nav a:link {
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+    font-size: 1em;
+    transition: all 0.3s;
+}
+
+.main-nav a:visited {
+    color: black;
+}
+
+.main-nav a:hover {
+    transition: all 0.3s;
+    font-weight: bold;
+}
+
+/* recipe */
+header.waiche {
+    width: 100%;
+    margin-left: 1.5em;
+
+}
+
+h1.title-recipe {
+    font-family: "Noto Serif Display", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 3em;
+    margin: 0 0.8em;
+    padding-top: 1.2rem;
+
+}
+
+h3 {
+    font-size: 0.9em;
+    margin-left: 3.3em;
+
+}
+
+.ingredients {
+    font-size: 0.7em;
+    padding-left: 4.3em;
+    list-style-type: none;
+
+}
+
+.recipe-photo img {
+    width: 20em;
+    height: 20em;
+    border-radius: 50%;
+    display: block;
+    margin: 3em auto 0 auto;
+
+}
+
+.box-prep {
+    width: 40%;
+    margin: auto;
+    margin-top: 3em;
+
+}
+
+.des-title {
+    font-size: 0.9em;
+    margin-bottom: 1em;
+
+}
+
+.recipe-des {
+    font-size: 0.7em;
+
+}
+
+.back {
+    color: black;
+    font-family: "Noto Serif Display", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    position: absolute;
+    bottom: 15%;
+    right: 10%;
+}
+
+.back a:link {
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.back a:visited {
+    color: black;
+}
+
+.back a:hover {
+    font-size: 1.2em;
+}
+
+/* info */
+.sources {
+    font-size: 0.6em;
+    width: 60%;
+    margin-top: 30em;
+    margin-left: 2em;
+}
+
+.artist-statement {
+    font-size: 0.7em;
+    width: 50%;
+    margin: 8em auto;
+}
+
+.header-art {
+    font-family: "Noto Serif Display", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 3em;
+    margin: 0 0.8em;
+    padding-top: 1.2rem;
+}
